@@ -1,6 +1,14 @@
 name = "retrospective-process"
-[compat]
-julia = "1.6.2"
-DrWatson = "2.7.3"
+
 [deps]
+DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
 DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+KrylovKit = "0b1a1467-8014-51b9-945f-bf0ae24f4b77"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+QuantEcon = "fcd29c91-0bd7-5a09-975d-7ac3f643a60c"
+SNAPDatasets = "fc66bc1b-447b-53fc-8f09-bc9cfb0b0c10"
+
+[compat]
+DrWatson = "2.7.3"
+julia = "1.6.2"
